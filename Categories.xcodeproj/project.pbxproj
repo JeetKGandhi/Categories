@@ -21,6 +21,9 @@
 		84DFFD6D1993A43700035F4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFFD4F1993A43700035F4A /* UIKit.framework */; };
 		84DFFD751993A43700035F4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DFFD731993A43700035F4A /* InfoPlist.strings */; };
 		84DFFD771993A43700035F4A /* CategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD761993A43700035F4A /* CategoriesTests.m */; };
+		84DFFD831993A46800035F4A /* UITabBarController+orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD821993A46800035F4A /* UITabBarController+orientation.m */; };
+		84DFFD881993A46F00035F4A /* UINavigationController+orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD851993A46F00035F4A /* UINavigationController+orientation.m */; };
+		84DFFD891993A46F00035F4A /* UINavigationController+statusbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFD871993A46F00035F4A /* UINavigationController+statusbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		84DFFD721993A43700035F4A /* CategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		84DFFD741993A43700035F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84DFFD761993A43700035F4A /* CategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoriesTests.m; sourceTree = "<group>"; };
+		84DFFD811993A46800035F4A /* UITabBarController+orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+orientation.h"; sourceTree = "<group>"; };
+		84DFFD821993A46800035F4A /* UITabBarController+orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+orientation.m"; sourceTree = "<group>"; };
+		84DFFD841993A46F00035F4A /* UINavigationController+orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+orientation.h"; sourceTree = "<group>"; };
+		84DFFD851993A46F00035F4A /* UINavigationController+orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+orientation.m"; sourceTree = "<group>"; };
+		84DFFD861993A46F00035F4A /* UINavigationController+statusbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+statusbar.h"; sourceTree = "<group>"; };
+		84DFFD871993A46F00035F4A /* UINavigationController+statusbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+statusbar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,7 @@
 		84DFFD511993A43700035F4A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				84DFFD801993A45600035F4A /* Categories */,
 				84DFFD5A1993A43700035F4A /* AppDelegate.h */,
 				84DFFD5B1993A43700035F4A /* AppDelegate.m */,
 				84DFFD5D1993A43700035F4A /* Main.storyboard */,
@@ -150,6 +160,19 @@
 				84DFFD731993A43700035F4A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DFFD801993A45600035F4A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFD841993A46F00035F4A /* UINavigationController+orientation.h */,
+				84DFFD851993A46F00035F4A /* UINavigationController+orientation.m */,
+				84DFFD861993A46F00035F4A /* UINavigationController+statusbar.h */,
+				84DFFD871993A46F00035F4A /* UINavigationController+statusbar.m */,
+				84DFFD811993A46800035F4A /* UITabBarController+orientation.h */,
+				84DFFD821993A46800035F4A /* UITabBarController+orientation.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DFFD831993A46800035F4A /* UITabBarController+orientation.m in Sources */,
 				84DFFD621993A43700035F4A /* ViewController.m in Sources */,
+				84DFFD881993A46F00035F4A /* UINavigationController+orientation.m in Sources */,
+				84DFFD891993A46F00035F4A /* UINavigationController+statusbar.m in Sources */,
 				84DFFD5C1993A43700035F4A /* AppDelegate.m in Sources */,
 				84DFFD581993A43700035F4A /* main.m in Sources */,
 			);
